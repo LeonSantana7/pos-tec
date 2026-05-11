@@ -1,0 +1,5 @@
+resposta = input("Digite uma resposta: ")
+arquivo = open("respostas.txt", "w")
+arquivo.write(resposta)
+print("Resposta salva com sucesso!")
+arquivo.close()
